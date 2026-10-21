@@ -30,7 +30,6 @@ Prima dell'aggiornamento è consigliato esportare un backup delle impostazioni. 
 
 - **Marlius — Marlius' Lab:** creatore dell'edizione modificata, aggiornamenti e correzioni.
 - **Chiquita:** riconoscimenti e tester.
-- **Alen Ajam:** autore dell'app PokeDialer originale.
 
 Questa è una modifica indipendente, **non affiliata né approvata da Nintendo, The Pokémon Company o altri titolari di marchi e contenuti**. Pokémon e i relativi elementi grafici e audio appartengono ai rispettivi titolari. La disponibilità di una build non implica l'autorizzazione a ridistribuire risorse di terzi.
 
