@@ -1,0 +1,32 @@
+# Sensitive files
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env*
+**/signing/
+**/private/
+**/secrets/
+*password*
+*token*
+# ROMs / dumps / personal information
+*.gba
+*.nds
+*.3ds
+*.sav
+*.srm
+*bugreport*.zip
+# Build outputs / unsigned deliverables
+build/
+.gradle/
+*.apk
+*.aab
+*.zip
+*.ogg
+*.wav
+*.log
+__pycache__/
+*.pyc
