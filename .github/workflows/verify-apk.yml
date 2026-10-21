@@ -1,0 +1,32 @@
+name: Validate PokeDialer Patch Sources
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse patch scripts
+        run: python -m py_compile src/scripts/patch_dex_levelup.py src/scripts/package_sign.py src/scripts/generate_levelup.py
+      - name: Check release version metadata
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          v=json.loads(Path('version.json').read_text())
+          assert v['version_name']=='3.1.5'
+          assert v['version_code']==310005
+          assert v['offline_no_internet_permission'] is True
+          assert v['physical_device_tested'] is False
+          PY
+      - name: Reject accidentally committed APK or private signing files
+        run: |
+          ! git ls-files | grep -Ei '(^|/)(.*\.apk|.*\.(p12|jks|keystore)|.*password.*\.txt|.*\.(gba|nds))$'

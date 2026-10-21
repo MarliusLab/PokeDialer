@@ -1,0 +1,14 @@
+{
+  "project": "PokeDialer Marlius+",
+  "version_name": "3.1.5",
+  "version_code": 310005,
+  "package": "com.ajamalen.pokedialer",
+  "min_sdk": 24,
+  "target_sdk": 30,
+  "source_base": "PokeDialer_3.1.4_Marlius_Final.apk",
+  "binary_filename": "PokeDialer_3.1.5_Marlius_LevelUp.apk",
+  "offline_no_internet_permission": true,
+  "apk_signing_scheme": "v2",
+  "static_validation": "passed",
+  "physical_device_tested": false
+}
