@@ -16,9 +16,11 @@ PokeDialer Offline — Marlius' Lab è un'edizione modificata di **PokeDialer**,
 
 ## APK Android
 
-**Ultima build preparata: 3.1.7** (`versionCode 310007`).
+**Ultima versione pubblicata: 3.1.7** (`versionCode 310007`).
 
-Per il download pubblico dell'APK è prevista la pagina [Releases](https://github.com/MarliusLab/PokeDialer/releases). **La release 3.1.7 non è stata ancora pubblicata su GitHub.** L'APK è stato preparato e firmato, ma il caricamento sulla piattaforma non è ancora completato.
+**[Scarica PokeDialer 3.1.7 per Android (APK, 57,4 MB)](https://github.com/MarliusLab/PokeDialer/releases/download/3.1.7/PokeDialer_3.1.7.apk)**
+
+La release è disponibile anche nella [pagina GitHub delle versioni](https://github.com/MarliusLab/PokeDialer/releases/tag/3.1.7). Non sono necessari pacchetti o archivi aggiuntivi.
 
 Requisito minimo dichiarato: **Android 7.0 (API 24)**. La verifica della firma e i controlli statici sulla build sono stati completati, ma **il collaudo fisico su dispositivi Android e la compatibilità con tutti i produttori non sono ancora confermati**.
 
@@ -40,4 +42,4 @@ Questa è una modifica indipendente, **non affiliata né approvata da Nintendo, 
 
 ## Stato del progetto
 
-Versione 3.1.7 preparata e verificata staticamente; collaudo funzionale Android ancora da completare.
+Versione 3.1.7 pubblicata su GitHub e verificata staticamente; collaudo funzionale Android ancora da completare.
