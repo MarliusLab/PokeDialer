@@ -1,6 +1,6 @@
 # PokeDialer Offline — Marlius' Lab
 
-**Versione 3.1.9 · Android · Edizione modificata non ufficiale**
+**Versione 3.1.9 · Android · Edizione modificata**
 
 PokeDialer Offline trasforma l'interfaccia delle chiamate in un'esperienza ispirata alle battaglie Pokémon, con Pokémon, allenatori, temi grafici e suonerie personalizzabili. Funziona senza richiedere una connessione Internet.
 
